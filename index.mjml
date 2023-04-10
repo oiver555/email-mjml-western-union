@@ -1,0 +1,347 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      @media only screen and (min-width: 600px) {
+        .large {
+          position: relative;
+          opacity: 1;
+        }
+
+        .small {
+          position: absolute;
+          opacity: 0;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .large {
+          position: absolute;
+          opacity: 0;
+        }
+
+        .small {
+          position: relative;
+          opacity: 1;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+    <mj-section background-color="black" padding="0">
+      <mj-column>
+        <mj-image align="left" padding="15px 0 15px 40px" width="150px" src="assets/logo.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="large" padding="0">
+      <mj-column>
+        <mj-image padding="0" src="assets/ladies.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="small" padding="0">
+      <mj-column>
+        <mj-image padding="0" src="assets/ladies_small.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text font-weight="bold" color="white">
+          Hi Oliver,
+        </mj-text>
+
+        <mj-text color="white">
+          With our competitive rates and seamless money transfer experience, we can help you make someone's day a little brighter.
+        </mj-text>
+
+        <mj-text color="white">
+          So whether you're at home or on the go, you can quickly and easily send money from <a href="#">westernunion.com</a>, our app, or a nearby <a href="#">agent location</a> today.
+        </mj-text>
+
+        <mj-text color="white">
+          We look forward to helping you!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column width="150px" padding="10px" border-radius="50px" background-color="yellow">
+        <mj-text font-weight="bold" padding="0" align="center">
+          <a href="#" style="color:black; text-decoration:none"> Send Now</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="small">
+      <mj-column>
+        <mj-image width="200px" src="assets/people.png" alt="" />
+        <mj-text font-weight="bold" font-size="26px" padding-top="0" color="white" align="center">
+          Millions and coutning ...
+        </mj-text>
+        <mj-text color="white" align="center">
+          We serve millions of customers like you, every day.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0" css-class="small">
+      <mj-column>
+        <mj-image width="200px" src="assets/flags.png" alt="" />
+        <mj-text font-weight="bold" font-size="26px" padding-top="0" color="white" align="center">
+          From here ... to virtually anywhere.
+        </mj-text>
+        <mj-text color="white" align="center">
+          With thousands of agent locations in 200 countries and territories, we’ve got you covered.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text padding="0" font-size="26px" font-weight="bold" color="white" align="center">
+          Check out what others are saying about our services
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="large" padding="0">
+      <mj-column>
+        <mj-spacer height="80px" />
+
+        <mj-text padding="0" font-size="26px" font-weight="bold" color="white">
+          Millions and <br>counting...
+        </mj-text>
+
+        <mj-spacer height="35px" />
+
+        <mj-text line-height="1.3" font-size="14px" padding="0" color="white">
+          We serve millions of customers like <br> you, every day.
+        </mj-text>
+      </mj-column>
+
+      <mj-column>
+        <mj-image padding="0" src="assets/people.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="small" padding="15px 10px 15px 10px">
+      <mj-column border="2px solid yellow">
+        <mj-text padding="15px 20px" color="white">
+          "I trust Western Union for all my remittances to my family … I can earn points and they have other benefits too."
+        </mj-text>
+        <mj-text font-size="16px" font-weight="bold" align="center" color="white">
+          Juliet
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="small" padding="0 10px 15px 10px">
+      <mj-column border="2px solid yellow">
+        <mj-text padding="15px 20px" color="white">
+          "My experience using Western Union has been phenomenal! My debit card broke ... but I discovered I can send money to myself using Western Union, so I can still get cash!"
+        </mj-text>
+        <mj-text font-size="16px" font-weight="bold" align="center" color="white">
+          Matthew
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="small" padding="0 10px 15px 10px">
+      <mj-column border="2px solid yellow">
+        <mj-text padding="15px 20px" color="white">
+          "Western Union has a great website. It has an all-around smooth and flawless feel. It also feels secure, and that is excellent when sending money online these days."
+        </mj-text>
+        <mj-text font-size="16px" font-weight="bold" align="center" color="white">
+          Zeb
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="small" padding="0 10px 15px 10px">
+      <mj-column border="2px solid yellow">
+        <mj-text padding="15px 20px" color="white">
+          "First time sending money online via Western Union to my country. It's fast! Thank you Western Union and team for the great job."
+        </mj-text>
+        <mj-text font-size="16px" font-weight="bold" align="center" color="white">
+          Jeetoo
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="large" padding="0 0 0 0">
+
+      <mj-column>
+        <mj-image padding="0" src="assets/flags.png" alt="" />
+      </mj-column>
+
+      <mj-column>
+        <mj-spacer height="80px" />
+
+        <mj-text align="left" padding="0 0 0 60px" font-size="26px" font-weight="bold" color="white">
+          From here … to virtually anywhere.
+        </mj-text>
+
+        <mj-spacer height="35px" />
+
+        <mj-text padding="0 0 0 60px" align="left" line-height="1.3" font-size="14px" padding="0" color="white">
+          With thousands of agent locations in 200 countries and territories, we’ve got you covered.
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+
+    <mj-section css-class="large">
+      <mj-column width="250px" border="2px solid yellow">
+        <mj-text padding="15px 20px" height="150px" color="white" font-size="14px" line-height="1.3">
+          "I trust Western Union for all my remittances to my family … I can earn points and they have other benefits too."
+        </mj-text>
+
+        <mj-text font-weight="bold" align="center" color="white" font-size="16px" line-height="1.3">
+          Juliet
+        </mj-text>
+      </mj-column>
+      <mj-column width="20px" padding="0">
+
+      </mj-column>
+      <mj-column width="250px" border="2px solid yellow">
+        <mj-text padding="15px 20px" height="150px" color="white" font-size="14px" line-height="1.3">
+          "My experience using Western Union has been phenomenal! My debit card broke ... but I discovered I can send money to myself using Western Union, so I can still get cash!"
+        </mj-text>
+        <mj-text align="center" color="white" font-weight="bold" font-size="16px" line-height="1.3">
+          Matthew
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="large" padding="0">
+      <mj-column width="250px" border="2px solid yellow">
+        <mj-text padding="15px 20px" height="150px" color="white" font-size="14px" line-height="1.3">
+          "Western Union has a great website. It has an all-around smooth and flawless feel. It also feels secure, and that is excellent when sending money online these days."
+        </mj-text>
+
+        <mj-text font-weight="bold" align="center" color="white" font-size="16px" line-height="1.3">
+          Zeb
+        </mj-text>
+      </mj-column>
+      <mj-column width="20px" padding="0">
+
+      </mj-column>
+      <mj-column width="250px" border="2px solid yellow">
+        <mj-text padding="15px 20px" height="150px" color="white" font-size="14px" line-height="1.3">
+          "First time sending money online via Western Union to my country. It's fast! Thank you Western Union and team for the great job."
+        </mj-text>
+        <mj-text font-weight="bold" align="center" color="white" font-size="16px" line-height="1.3">
+          Jeetoo
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="20px 0 0 0">
+      <mj-column background-color="yellow">
+        <mj-text font-size="25px" font-weight="bold" align="center">
+          Download the Western Union® app.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 100px" background-color="yellow">
+      <mj-column background-color="yellow">
+        <mj-image href="#" src="assets/applestore.png" alt="" />
+      </mj-column>
+      <mj-column background-color="yellow">
+        <mj-image href="#" src="assets/playstore.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="20px 0 0 0">
+      <mj-column>
+        <mj-image padding="0" src="assets/footer.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section padding="20px 0">
+      <mj-column width="55px">
+        <mj-image href="#" padding="8px" src="assets/facebook.png" alt="" />
+      </mj-column>
+      <mj-column width="55px">
+        <mj-image href="#" padding="8px" src="assets/twitter.png" alt="" />
+      </mj-column>
+      <mj-column width="55px">
+        <mj-image href="#" padding="8px" src="assets/youtube.png" alt="" />
+      </mj-column>
+      <mj-column width="55px">
+        <mj-image href="#" padding="8px" src="assets/instagram.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section css-class="large" background-color="black">
+      <mj-column width="80px">
+        <mj-text color="white" padding="0">
+          <a href="#" style="text-decoration:none; color: white">Unscbscribe</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="10px">
+        <mj-text padding="0" color="white">
+          |
+        </mj-text>
+      </mj-column>
+      <mj-column width="50px">
+        <mj-text color="white" padding="0">
+          <a href="#" style="text-decoration:none; color: white"> Privacy</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="10px">
+        <mj-text color="white" padding="0">
+          |
+        </mj-text>
+      </mj-column>
+      <mj-column width="55px">
+        <mj-text color="white" padding="0">
+          <a href="#" style="text-decoration:none; color:white">Contact</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="10px">
+        <mj-text color="white" padding="0">
+          |
+        </mj-text>
+      </mj-column>
+      <mj-column width="120px">
+        <mj-text color="white" padding="0">
+          <a href="#" style="text-decoration:none; color:white">Fraud awarness</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="small" background-color="black">
+      <mj-column>
+        <mj-text align="center" color="white">
+          <a href="#" style="color:white;text-decoration:none">Unsubscribe</a> | <a href="#" style="color:white;text-decoration:none">Privacy</a> | <a href="#" style="color:white;text-decoration:none">Contact</a> | <a href="#" style="color:white;text-decoration:none">Fraud awareness</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text line-height="1.3" font-size="12px" color="white">
+          This is an advertisement from Western Union Financial Services, Inc.
+          <br>
+          <br>
+          Western Union Financial Services, Inc PO Box 6036 Englewood, CO 80112
+          <br>
+          <br>
+          Services may be provided by Western Union Financial Services, Inc. NMLS# 906983 and/or Western Union International Services, LLC NMLS# 906985, which are licensed as Money Transmitters by the New York State Department of Financial Services. See terms and conditions for details.
+          <br>
+          <br>
+          ©2023 Western Union Holdings, Inc. All rights reserved. All other logos, trademarks, service marks and trade names referenced in this material are the property of their respective owners.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
