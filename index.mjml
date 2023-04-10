@@ -27,7 +27,7 @@
     </mj-style>
   </mj-head>
 
-  <mj-body>
+  <mj-body background-color="rgb(20,20,20)">
     <mj-section background-color="black" padding="0">
       <mj-column>
         <mj-image align="left" padding="15px 0 15px 40px" width="150px" src="assets/logo.png" alt="" />
